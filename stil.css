@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.container {
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
+.container h2 {
+    color: black;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+}
+.item {
+    background: black;
+    color: white;
+    padding: 20px;
+    flex-grow: 1;
+}
